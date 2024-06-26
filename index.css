@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	margin: auto;
+}
+
+/* Styling for header */
+.container {
+	margin: 0;
+	padding: 0;
+}
+
+.image-container {
+	height: 50vh;
+	width: 100vw;
+	background-image: url("./images/movie.jpg");
+	background-size: contain;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	/* opacity: 0.4; */
+}
+
+.search-container {
+	width: 50%;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 5px;
+	display: flex;
+}
+
+#search-bar {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: -3px;
+}
+
+.goToFav {
+	margin: -55px 40px 20px;
+}
+
+button {
+	float: right;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 3px;
+	background-color: #333;
+	color: white;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #686868;
+}
+
+
+/* Styling for main and JS functioning */
+#results {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 50px 200px;
+	padding-left: 50px;
+}
+
+.movie {
+	position: relative;
+	width: 20vw;
+	margin: 14px;
+	flex-direction: column;
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 2px 4px rgba(204, 201, 201, 0.1);
+}
+
+.poster {
+	object-fit: cover;
+	padding: 10px;
+	height: auto;
+}
+
+.movieDetails {
+	padding: 10px;
+	flex: 1;
+	padding: 10px;
+}
+
+.movieDetails h2 {
+	font-size: 1.2rem;
+	margin-bottom: 5px;
+}
+
+.movieDetails h3 {
+	font-size: 1rem;
+	color: #777;
+	margin-bottom: 5px;
+}
+
+.movieDetails p {
+	font-size: 0.9rem;
+	margin-bottom: 5px;
+}
+
+.movieDetails .card-text {
+	margin-bottom: 5px;
+}
+
+.heart-icon:hover {
+	cursor: pointer;
+}
+
+.red {
+	color: red;
+}
