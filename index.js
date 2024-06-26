@@ -1,6 +1,3 @@
-// OMDB API - http://www.omdbapi.com/?i=tt3896198&apikey=ac499f09
-// API key - ac499f09
-
 const searchBar = document.getElementById("search-bar");
 const result = document.getElementById("results");
 
